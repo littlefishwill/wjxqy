@@ -7,6 +7,8 @@ import android.view.Window;
 import com.szw.game.wjxqy.R;
 
 import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
 
 /**
  * Created by shenmegui on 2017/11/28.
@@ -44,4 +46,8 @@ public abstract class BaseActivity extends AppCompatActivity {
         EventBus.getDefault().unregister(this);
     }
 
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void uiUpdate(BaseActivity event) {
+
+    }
 }

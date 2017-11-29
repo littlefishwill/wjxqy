@@ -82,7 +82,7 @@ public class PhoneActivityService extends AccessibilityService {
 
     public static boolean isAccessibilitySettingsOn(Context mContext) {
         int accessibilityEnabled = 0;
-        final String service = "com.szw.tools.wechatgroupandroid/com.szw.tools.wechatgroupandroid.service.PhoneActivityService";
+        final String service = "com.szw.game.wjxqy/com.szw.game.wjxqy.action.accessservice.PhoneActivityService";
         boolean accessibilityFound = false;
         try {
             accessibilityEnabled = Settings.Secure.getInt(

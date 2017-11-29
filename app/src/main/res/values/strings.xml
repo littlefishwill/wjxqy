@@ -3,5 +3,8 @@
     <string name="access_service_des">微剑侠情缘 通过微信聊天来进行游戏。\r\n因此需要开启该服务，才能与微信正常通信。\r
         \n如无法开启该游戏，则无法进行游戏。</string>
 
-    <string name="access_service_connect">您已经开启了服务，能正常进行游戏啦~！~！~</string>
+    <string name="access_service_connect">您已经开启了服务，能正常进行游戏啦!</string>
+
+    <string name="error_title_access_service_notaccess">服务未启动</string>
+    <string name="error_body_access_service_notaccess">该游戏需要与微信联动，因此需要激活无障碍服务，否则无法进行游戏</string>
 </resources>
